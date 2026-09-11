@@ -1,0 +1,39 @@
+/* Reset global e centralização da página */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f6f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 19vh;
+}
+
+/* Área principal */
+.conteudo-principal {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Estilização do Botão */
+.botao-principal {
+  display: inline-block;       /* Garante que dimensões e espaçamentos funcionem corretamente */
+  text-decoration: none;      /* Remove o sublinhado padrão do link */
+  background-color: #167BF7;  /* Cor de fundo */
+  color: #ffffff;             /* Cor do texto */
+  padding: 12px 29px;         /* Espaçamento interno (cima/baixo, esquerda/direita) */
+  border-radius: 8px;         /* Arredondamento dos cantos */
+  font-size: 15px;            /* Tamanho da fonte */
+  font-weight: bold;          /* Destaque em negrito */
+  cursor: pointer;            /* Ícone de mãozinha ao passar o mouse */
+  transition: background-color 0.2s ease; /* Transição suave de cor */
+}
+
+/* Efeito ao passar o mouse por cima do botão */
+.botao-principal:hover {
+  background-color: #f71b02;
+}
